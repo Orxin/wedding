@@ -62,27 +62,3 @@
     background-color: #d9eec2;
     color: #343d46;
 }
-/* 
-    5. 오시는길 
-                 */
-/* 전화문의 버튼 */
-.tel_ask_btn {
-    background-color: #c6b7f1;
-    background-image: url('./img/icon_contact_white_tel.png');
-    background-position: 12px center;
-    background-repeat: no-repeat;
-    background-size: auto 15px;
-}
-/* tab menu button */
-.mcard_button2 {
-    background-color: #f5f5f7;
-    color: #7f838c;
-}
-.mcard_button2_on {
-    background-color: #e1daf6;
-    color: #343d46;
-}
-/* navi button */
-.map_navi_button > a {
-    background-color: #ffffff;
-}
