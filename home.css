@@ -1,0 +1,83 @@
+/* home 공통 css */
+@import url('//mcard1.bojagicard.com/font/SeoulHangang.css');
+@import url('//mcard1.bojagicard.com/font/SeoulHangangJungL.css');
+@import url('//cdn.jsdelivr.net/font-spoqa-han-sans/2.1.0/css/SpoqaHanSans-kr.css');
+body { 
+    margin: 0;
+    padding: 0;
+}
+ul, li { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, select, button {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    font-family: 'SeoulHangangJungL'
+}
+
+
+/* ====================================== 전 테마 공통 ========================================== */
+/* 메인 설정 아이콘 */
+.home_settiong_wrapper {
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 10;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    opacity: 0;
+}
+.home_settiong_btn {
+    height: 51px;
+    background-image: url('img/icon_setting_btn.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 47px 51px;
+    cursor: pointer;
+    font-size: 12px;
+    padding-left: 31px;
+}
+#photo_view_slide_left_button {
+    padding-left: 10px;
+}
+#photo_view_slide_right_button {
+    padding-right: 10px;
+}
+
+.setting_fade.on {
+    opacity: 1;
+    animation: setting_ani 1s ease 2;
+    text-shadow: 1px 1px 18px #ffffff ;
+    color: #ffffff;
+}
+@keyframes setting_ani {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+
+
+/* =============  섹션별 폰트 사이즈 =============  */
+
+
+/* 달력 */
+.calendar_title li > span {
+    font-size: 20px;
+}
+.calendar_ym {
+    font-size: 18px;
+}
+.calendar th, .calendar .dday > span {
+    font-size: 12px;
+}
+.calendar td > span {
+    font-size: 13px;
+}

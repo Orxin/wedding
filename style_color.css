@@ -1,0 +1,88 @@
+/* 테마 3-3 */
+/*
+    공통적용 폰트 색상
+                        */
+.section_title > li,
+/* 인사 */
+.insa_text, #insa_family_tbl td, #insa_family_tbl td span,
+/* 축하연락처 */
+.name_block,
+/* 달력 */
+.calendar_ym, .calendar td, .calendar_title li > span, .day > span,
+/* 갤러리 */
+.photo_more_btn, .sub_title, #photo_more_row span,
+/* 안내사항 */
+.notice_row_txt_title, .notice_row_txt,
+/* 오시는길 */
+.section_desc, .map_address > div, .map_navi_button, .map_address a,
+/* 계좌 */
+.bank_txt_view_btn > span,
+/* 축하화환 */
+.flower_wreath_wrapper > div, .aff_banner > div,
+/* 축하메시지*/
+.msg_button, .msg_memo_guest, .msg_name > div, .guest_navigation_wrapper > div 
+/* 소식공유 */
+.share_bottom > div {
+    color: #343d46;
+}
+
+/*
+    섹션 공통
+                */
+.section {
+      background-color: #fdfdff;
+}
+.section:nth-child(odd) {
+     background-color: #f5f4fa;
+}
+.section_title_img {
+    background: url('./img/img_title_t3c3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    margin-bottom: 31px;
+}
+/* 
+    3. 달력 
+               */
+.calendar_section {
+    background-image: url('./img/img_calendar_t3c3_bg.jpg');
+    background-color: #ffffff;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+}
+.calendar_inner {
+    background-color: #ffffff;
+}
+.calendar th {
+    color: #a7adbb;
+}
+.calendar .dday > span{
+    background-color: #e1daf6;
+    color: #343d46;
+}
+/* 
+    5. 오시는길 
+                 */
+/* 전화문의 버튼 */
+.tel_ask_btn {
+    background-color: #c6b7f1;
+    background-image: url('./img/icon_contact_white_tel.png');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+}
+/* tab menu button */
+.mcard_button2 {
+    background-color: #f5f5f7;
+    color: #7f838c;
+}
+.mcard_button2_on {
+    background-color: #e1daf6;
+    color: #343d46;
+}
+/* navi button */
+.map_navi_button > a {
+    background-color: #ffffff;
+}
