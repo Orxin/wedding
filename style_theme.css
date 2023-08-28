@@ -17,28 +17,28 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
     font-family: 'SeoulHangangJungL'
 }
 /*
-    °øÅëÀû¿ë ÆùÆ® »ö»ó
+    ê³µí†µì ìš© í°íŠ¸ ìƒ‰ìƒ
                         */
 .section_title > li,
-/* ÀÎ»ç */
+/* ì¸ì‚¬ */
 .insa_text, #insa_family_tbl td, #insa_family_tbl td span,
-/* ÃàÇÏ¿¬¶ôÃ³ */
+/* ì¶•í•˜ì—°ë½ì²˜ */
 .name_block,
-/* ´Þ·Â */
+/* ë‹¬ë ¥ */
 .calendar_ym, .calendar td, .calendar_title li > span, .day > span,
-/* °¶·¯¸® */
+/* ê°¤ëŸ¬ë¦¬ */
 .photo_more_btn, .sub_title, #photo_more_row span,
-/* ¾È³»»çÇ× */
+/* ì•ˆë‚´ì‚¬í•­ */
 .notice_row_txt_title, .notice_row_txt,
-/* ¿À½Ã´Â±æ */
+/* ì˜¤ì‹œëŠ”ê¸¸ */
 .section_desc, .map_address > div,
-/* °èÁÂ */
+/* ê³„ì¢Œ */
 .bank_txt_view_btn > span,
-/* ÃàÇÏÈ­È¯ */
+/* ì¶•í•˜í™”í™˜ */
 .flower_wreath_wrapper > div, .aff_banner > div,
-/* ÃàÇÏ¸Þ½ÃÁö*/
+/* ì¶•í•˜ë©”ì‹œì§€*/
 .msg_button, .guest_msg_memo, .msg_name > div, .guest_navigation_wrapper > div 
-/* ¼Ò½Ä°øÀ¯ */
+/* ì†Œì‹ê³µìœ  */
 .share_bottom > div {
     color: #544741;
 }
@@ -83,7 +83,7 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
 }
 
 /* 
-    3. ´Þ·Â 
+    3. ë‹¬ë ¥ 
                */
 .calendar_section {
     background-image: url('./img/img_calendar_t3c1_bg.jpg');
@@ -150,13 +150,13 @@ table.calendar {
     height: 25px;
     background-color: #cbedb4;
     border-radius: 100%;
-    color: #ffffff;
+    color: #6d5c19;
     text-align: center;
     line-height: 25px; 
-    font-size:12px; 
+    font-size:14px; 
 }
 /* 
-    ¼û±è Ã³¸® 
+    ìˆ¨ê¹€ ì²˜ë¦¬ 
                 */
 
 .day_title_date, {
