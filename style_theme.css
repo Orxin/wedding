@@ -46,13 +46,6 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
 /* 
     3. 달력 
                */
-.calendar_section {
-    background-image: url('./img/img_calendar_t3c1_bg.jpg');
-    background-color: #fdf8f4;
-    background-position: center 80%;
-    background-repeat: no-repeat;
-    background-size: 700px 700px;
-}
 .calendar_title {
     padding-top: 32px;
     padding-bottom: 10px; 
