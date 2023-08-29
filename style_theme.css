@@ -43,45 +43,6 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
     color: #544741;
 }
 
-.section{
-    padding-bottom: 55px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top:25px;
-}
-#photo_section {
-	padding-left: 0;
-	padding-right: 0;
-}
-#photo_section .section_header{
-    margin-left: 35px;
-    margin-right: 35px;
-}
-.section {
-      background-color: transparent;
-}
-.section:nth-child(odd) {
-     background-color: transparent;
-}
-.section_header {
-    display:none;
-}
-.section_title {
-    font-size: 20px;
-    font-weight: 500;
-    padding-bottom: 27px;
-    padding-top: 25px;
-    text-align: center;
-}
-.section_title_img {
-    height:70px;
-    background: url('./img/img_title_t3c1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70px;
-    margin-bottom: 31px;
-}
-
 /* 
     3. 달력 
                */
