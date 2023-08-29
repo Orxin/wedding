@@ -68,6 +68,7 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
 }
 .calendar_inner {
     background-color: #ffffff;
+    opacity: 0.5;
     margin-top:20px;
     margin-bottom: 20px;
     padding: 25px;
