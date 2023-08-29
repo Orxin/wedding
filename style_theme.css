@@ -87,7 +87,6 @@ table.calendar {
     word-break: break-all;
 }
 .calendar th {
-    color: #605ca8;
     font-size: 12px;
 }
 .calendar td > span {
@@ -101,7 +100,6 @@ table.calendar {
     height: 25px;
     background-color: #cbedb4;
     border-radius: 100%;
-    color: #6d5c19;
     text-align: center;
     line-height: 25px; 
     font-size:24px; 
