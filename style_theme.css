@@ -135,10 +135,6 @@ table.calendar {
     color: #605ca8;
     font-size: 12px;
 }
-.calendar th2 {
-    color: #c64848;
-    font-size: 12px;
-}
 .calendar td > span {
     font-size: 13px;
     font-family: 'Spoqa Han Sans';
