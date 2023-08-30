@@ -110,3 +110,116 @@ table.calendar {
 .day_title_date, {
 	display: none;
 }
+@media (prefers-color-scheme: dark) {
+body { 
+    margin: 0; 
+    padding: 0;
+}
+ul, li { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+a {
+    text-decoration: none;
+}
+a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, select, button { 
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    font-family: 'SeoulHangangJungL'
+}
+/*
+    공통적용 폰트 색상
+                        */
+.section_title > li,
+/* 인사 */
+.insa_text, #insa_family_tbl td, #insa_family_tbl td span,
+/* 축하연락처 */
+.name_block,
+/* 달력 */
+.calendar_ym, .calendar td, .calendar_title li > span,
+/* 갤러리 */
+.photo_more_btn, .sub_title, #photo_more_row span,
+/* 안내사항 */
+.notice_row_txt_title, .notice_row_txt,
+/* 오시는길 */
+.section_desc, .map_address > div,
+/* 계좌 */
+.bank_txt_view_btn > span,
+/* 축하화환 */
+.flower_wreath_wrapper > div, .aff_banner > div,
+/* 축하메시지*/
+.msg_button, .guest_msg_memo, .msg_name > div, .guest_navigation_wrapper > div 
+/* 소식공유 */
+.share_bottom > div {
+    color: #544741;
+}
+
+/* 
+    3. 달력 
+               */
+.calendar_title {
+    padding-top: 32px;
+    padding-bottom: 10px; 
+}
+.calendar_title li {
+    font-size: 20px;
+}
+.calendar_title_hide {
+    display: none;
+}
+#calendar_row .section_header{
+    border: none;
+}
+.calendar_inner {
+    background-color: #ffffff;
+    opacity: 0.95;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.calendar_ym {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    text-align: center;
+}
+table.calendar {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+.calendar th, .calendar td {
+    height: 36px;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    text-align: center; 
+    word-break: break-all;
+}
+.calendar th {
+    font-size: 12px;
+}
+.calendar td > span {
+    font-size: 13px;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+}
+.calendar .dday > span{
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #cbedb4;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px; 
+    font-size:16px; 
+}
+/* 
+    숨김 처리 
+                */
+
+.day_title_date, {
+	display: none;
+}
+}
