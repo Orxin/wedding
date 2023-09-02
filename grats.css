@@ -44,3 +44,12 @@ textarea {
     padding-left: 15px;
     font-family: 'GowunBatang-Regular', 'Nanum Gothic', sans-serif;
 }
+#myalert {
+        position: absolute;
+        filter: drop-shadow(0px 0px 3px #000000);
+        top: 90%;
+        width: 340px;
+        height: 210px;
+        display: none;
+        z-index: 99;
+}
