@@ -20,7 +20,7 @@ body {
 
 textarea {
     border: 1px solid black;
-    width: 280px;
+    width: 260px;
     border-radius: 10px;
     padding-top: 8px;
     padding-left: 15px;
@@ -41,7 +41,7 @@ textarea {
 
 #button {
     border: 1px solid black;
-    width: 280px;
+    width: 260px;
     height: 30px;
     border-radius: 10px;
     padding-top: 2px;
