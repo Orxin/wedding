@@ -4,12 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body {
     font-family: 'GowunBatang-Regular', 'Nanum Gothic', sans-serif;
     background-color: transparent;
 }
-
 .content-wrap {
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +15,6 @@ body {
     border: 0px;
     padding: 10px;
 }
-
 textarea {
     border: 1px solid black;
     width: 260px;
@@ -27,7 +24,6 @@ textarea {
     font-family: 'GowunBatang-Regular', 'Nanum Gothic', sans-serif;
     resize: vertical;
 }
-
 #name {
     border: 1px solid black;
     width: 80px;
@@ -38,7 +34,6 @@ textarea {
     padding-left: 15px;
     font-family: 'GowunBatang-Regular', 'Nanum Gothic', sans-serif;
 }
-
 #button {
     border: 1px solid black;
     width: 260px;
